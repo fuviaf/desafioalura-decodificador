@@ -1,0 +1,118 @@
+*{
+    font-family:  inter, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    background-color: #E0E0E0;
+}
+
+body{
+    background-color:#E0E0E0 ;
+}
+
+.logoAlura{
+    display: relative;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.texto{
+  border-style: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #F3F5FC;
+
+}
+.observacao{
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #606060 ;
+
+}
+
+.btn{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0 0px 10px;
+   
+}
+
+.codificar{
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #004166;
+    padding: 10px;
+    color: #004166;
+}
+
+.descodificar{
+    background-color:#004166;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #004166;
+    padding: 10px;
+    color: white;
+}
+
+.retornoTexto{
+    position:absolute;
+    display: inline-block;
+    margin: 0 0 0 250px;
+}
+
+.message{
+    position:relative;
+    display: flex;
+    display: inline-block;
+    border-style: none;
+    outline: none;
+    border-radius: 30px;
+    background-image:url(images/notFound.png)
+    
+}
+
+
+
+.copiar{
+    position: relative;
+    display: none;
+    font-size: 25px;
+    background-color: white;
+    color: #004166;
+    border-radius: 24px;
+    border: 1px solid #004166;
+    padding: 0px 20px;
+    
+    
+}
+
+.footer{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+
+.redeSocial{
+ text-decoration: none;
+font-size: 20px;
+color: #606060 ;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px}
